@@ -1,0 +1,9 @@
+<div class="row">
+  <app-filter class="row-2"></app-filter>
+  <div class="product-grid row-8">
+    <app-product-card
+      [product]="product"
+      *ngFor="let product of products"
+    ></app-product-card>
+  </div>
+</div>

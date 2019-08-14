@@ -1,0 +1,24 @@
+<div class="row" *ngIf="product">
+  <div class="row-6">
+    <img [src]="product.image" alt="product.name">
+  </div>
+  <div class="row-6">
+    <mat-card class="product-card">
+      <mat-card-header>
+        <mat-card-title>{{ product.name }}</mat-card-title>
+        <mat-card-subtitle>{{ product.price | currency }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          {{ product.description }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary">
+          <mat-icon>add_shopping_cart</mat-icon> Agregar al carro
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+<app-product-recommendations></app-product-recommendations>

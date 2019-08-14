@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/product1.jpg",
+    "name": "Camisa 1",
+    "price": 80,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae? ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et doLorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae? ratione quae?"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/product2.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/product3.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/product4.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/product5.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/product6.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/product7.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/product8.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/product9.jpg",
+    "name": "Camisa 2",
+    "price": 90,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a odio facere nihil? Harum, nihil non! Repellat culpa sed adipisci necessitatibus ab minus, quas esse illo et dolorem ratione quae?"
+  }
+]
