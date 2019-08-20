@@ -11,37 +11,26 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin-left: auto;
 }
 
+.image{
+  max-width: 100%;
+}
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px 20px;
 }
 
-.row{
-  display: flex;
-}
-
-.row-2{
-  width: 28%;
-  margin: 0px 1%;
-  box-sizing: border-box;
-}
-
-.row-8{
-  width: 78%;
-  margin: 0px 1%;
-  box-sizing: border-box;
-}
-
-.row-6{
-  width: 48%;
-  margin: 0px 1%;
-  box-sizing: border-box;
+.full-width {
+  width: 100%;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .product-grid{
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -50,5 +39,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     max-width: 1110px;
     padding-right: 16px;
     padding-left: 16px;
+  }
+  .product-grid{
+    grid-template-columns: repeat(4, 1fr);
   }
 }

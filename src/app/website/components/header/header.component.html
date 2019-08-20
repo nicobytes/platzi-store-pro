@@ -1,0 +1,39 @@
+<mat-toolbar class="header-toolbar" color="primary">
+  <mat-toolbar-row>
+    <div class="container">
+      <div class="row between-xs middle-xs">
+        <nav class="header-nav">
+          <a mat-button routerLink="/">Inicio</a>
+          <button mat-button [matMenuTriggerFor]="productsMenu">
+            Productos
+          </button>
+          <a mat-button routerLink="/stores">Nuestras tiendas</a>
+          <a mat-button routerLink="/about-us">Sobre nosotros</a>
+        </nav>
+        <a
+          mat-raised-button
+          routerLink="/order"
+          aria-label="cart"
+          [matBadge]="totalProducts$ | async"
+          matBadgeColor="warn"
+        >
+          <mat-icon>shopping_cart</mat-icon>
+          Carrito
+        </a>
+      </div>
+    </div>
+
+    <mat-menu #productsMenu="matMenu">
+      <a mat-menu-item routerLink="/products">Todos</a>
+      <a mat-menu-item routerLink="/products" [queryParams]="{ type: 'news' }"
+        >Nuevos Productos</a
+      >
+      <a mat-menu-item routerLink="/products" [queryParams]="{ type: 'offer' }"
+        >En oferta</a
+      >
+      <a mat-menu-item routerLink="/products" [queryParams]="{ type: 'latest' }"
+        >Últimos productos</a
+      >
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>

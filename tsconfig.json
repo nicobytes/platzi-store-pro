@@ -22,7 +22,8 @@
       "@core/*": ["src/app/core/*"],
       "@auth/*": ["src/app/auth/*"],
       "@material/*": ["src/app/material/*"],
-      "@products/*": ["src/app/products/*"],
+      "@products/*": ["src/app/website/products/*"],
+      "@website/*": ["src/app/website/*"],
       "@shared/*": ["src/app/shared/*"],
     }
   },

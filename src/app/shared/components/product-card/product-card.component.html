@@ -1,21 +1,21 @@
 <mat-card class="product-card">
   <mat-card-header>
     <div mat-card-avatar class="product-card-image"></div>
-    <mat-card-title>{{ product.name }}</mat-card-title>
+    <mat-card-title>{{ product.title }}</mat-card-title>
     <mat-card-subtitle>{{ product.price | currency }}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image [src]="product.image" [alt]="product.name" />
+  <img mat-card-image [src]="product.image" [alt]="product.title" />
   <mat-card-content>
     <p>
       {{ product.description | slice:0:50 }}...
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <a mat-button [routerLink]="['/products', product.id]">
+    <a mat-button [routerLink]="['/products', product._id]">
       <mat-icon>visibility</mat-icon>
       Ver detalle
     </a>
-    <button mat-button>
+    <button mat-button (click)="addProduct()">
       <mat-icon>add_shopping_cart</mat-icon> Agregar al carro
     </button>
   </mat-card-actions>

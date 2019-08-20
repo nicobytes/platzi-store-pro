@@ -16,6 +16,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatStepperModule } from '@angular/material/stepper';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { MatRadioModule } from '@angular/material/radio';
     MatMenuModule,
     MatInputModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSnackBarModule,
+    MatBadgeModule,
+    MatStepperModule
   ],
   exports: [
     MatButtonModule,
@@ -55,7 +61,10 @@ import { MatRadioModule } from '@angular/material/radio';
     MatSidenavModule,
     MatInputModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSnackBarModule,
+    MatBadgeModule,
+    MatStepperModule
   ],
 })
 export class MaterialModule { }
