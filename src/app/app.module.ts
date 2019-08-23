@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { QuicklinkModule } from 'ngx-quicklink';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { environment } from './../environments/environment';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    QuicklinkModule,
   ],
   providers: [
     { provide: 'API_URL', useValue: environment.api },
