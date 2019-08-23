@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
+import { PreloadingStrategyService } from '@core/services/preloading-strategy.service';
+
 const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./website/website.module').then(m => m.WebsiteModule),
+    data: { preload: true }
   },
   {
     path: 'admin',
@@ -14,7 +17,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    preloadingStrategy: PreloadAllModules
+    preloadingStrategy: PreloadingStrategyService
   })],
   exports: [RouterModule]
 })
